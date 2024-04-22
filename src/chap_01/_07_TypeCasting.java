@@ -14,6 +14,16 @@ public class _07_TypeCasting {
 
         System.out.println((int)score_f); // 39
         System.out.println((int)score_d); // 39
+
+        String s2 = String.valueOf(93);
+//        s2 = Integer.toString(93);
+        System.out.println(s2);
+
+        int i = Integer.parseInt("98");
+        System.out.println(i);
+    double d = Double.parseDouble("98");
+        System.out.println(d);
+
     }
 
 }
